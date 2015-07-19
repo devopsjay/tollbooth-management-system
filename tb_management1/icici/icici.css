@@ -1,0 +1,134 @@
+body{
+background:white url('ic.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  box-sizing:border-box;
+  color:#D14D0F;
+  
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+.flex{
+display:flex;
+height:100%;
+}
+
+
+#laksmi{
+background:#EF7417; /* Old browsers #FE6B57 */
+height:47%;
+width:40.5%;
+margin: 25% auto;
+border-radius:50px;
+border:2px solid #DDDDDD;
+display:flex;
+flex-direction:column;
+overflow:hidden;
+
+}
+
+#form{
+background:white;
+margin:auto;
+height:90%;
+width:95%;
+text-align:left;
+-webkit-box-sizing : border-box;
+float:left;
+border-radius:30px;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    background-color:#F4F4F4; /* fallback color if gradients are not supported */
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #55;
+    font-size: 1.16em;
+    width:20%;
+    height:11%;
+    margin: 0  11% 0 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  border: 1px solid #F4F4F4 ;
+   border-radius:5px;
+  font-size: 1.15em;
+  width:59%;
+  height:12%;
+  margin:0 3% 0 0;
+  padding: 2px 13px 2px 13px;
+  
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+  border: 3px solid rgba(81, 203, 238, 1);
+   border-radius:30px;
+}
+
+#cvv input[type="text"]{
+	width:4em;
+  margin:0 48% 0 0;
+}
+
+#bttn{
+height:25%;
+width:25%;
+margin:4.6% 25%; 
+}
+
+ button {
+  border: 0;
+  background: #D14D0F;
+  border-radius: 8px;
+  box-shadow: 0 10px 2px #BB2F0B;
+  cursor: pointer;
+  color: white;
+  font-size: 1.4em;
+  padding: 6px 20px;
+  transition: all 1s ease-in-out;
+  border-radius:50px;
+  
+}
+
+ button:focus {
+  box-shadow: 0 1px 0 #BB2F0B;
+  transform: translateY(3px);
+  
+}
+span{
+font-size:1.3em;
+font-weight:bold;
+line-height:1.5em;
+width:20%;
+margin:0 0 0 4%;
+}
+
+input,select{
+ float:right;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}

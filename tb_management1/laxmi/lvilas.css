@@ -1,0 +1,130 @@
+body{
+background:white url('lvilas.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  box-sizing:border-box;
+  
+}
+.flex{
+display:flex;
+height:100%;
+}
+
+
+#laksmi{
+background:#EC7072; /* Old browsers #FE6B57 */
+height:47%;
+width:33%;
+margin:16% auto;
+border-radius:30px;
+display:flex;
+flex-direction:column;
+
+}
+#header{
+background:#F4701B; /* Old browsers */
+background: -moz-linear-gradient(top, #FF8C03 0%, #FF9416 100%); /* FF3.6+ */
+height:5%;
+border-radius:4px;
+}
+#form{
+margin:auto;
+height:90%;
+width:95%;
+text-align:left;
+-webkit-box-sizing : border-box;
+float:left;
+overflow:hidden;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    background-color: #C9C9E3;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    color: #55;
+    font-size: 1.16em;
+    width:20%;
+    height:11%;
+    margin: 0 12% 0 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+input[type=text], textarea {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  outline: none;
+  border: 2px solid #DDDDDD;
+  font-size: 1.2em;
+  width:61%;
+  height:12%;
+  margin:0 2% 0 0;
+  padding: 2px 30px 2px 30px;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 5px solid rgba(81, 203, 238, 1);
+}
+
+#cvv{
+margin-top:2%;
+}
+
+#cvv input[type="text"]{
+	width:4em;
+  margin:0 45% 0 0;
+}
+
+#bttn{
+height:25%;
+width:27%;
+margin:10% 25%;  
+
+}
+ button {
+  background: #C9C9E3;
+  box-shadow: 0 5px 0 #C9C9E6;
+  cursor: pointer;
+  color: #555;
+  font-size: 1.4em;
+  padding: 6px 20px;
+  transition: all 1s ease-in-out;
+  border-radius:10px;
+  
+}
+
+ button:focus{
+  box-shadow: 10px 10px 5px #EC7072;
+  border-radius:40px;
+  transform: translateY(3px);
+}
+span{
+font-size:1.2em;
+font-weight:bold;
+line-height:1.4em;
+width:20%;
+
+}
+input,select{
+ float:right;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}

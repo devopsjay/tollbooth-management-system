@@ -1,0 +1,127 @@
+body{
+background:white url('Axis.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  box-sizing:border-box;
+  color:#E6E2E3;
+  font-size:1em;
+}
+.flex{
+display:flex;
+height:100%;
+}
+
+
+#laksmi{
+background:white; /* Old browsers #FE6B57 */
+height:47%;
+width:37%;
+margin:32% 0 0 15.8%;
+border-radius:50px;
+border:2px solid #DDDDDD;
+display:flex;
+flex-direction:column;
+
+}
+
+#form{
+margin:auto;
+height:90%;
+width:95%;
+text-align:left;
+background-color:#A80D47;
+border-radius:30px;
+overflow:hidden;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    background-color: #C9C9E3; /* fallback color if gradients are not supported */
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #55;
+    font-size: 1.16em;
+    width:18%;
+    height:11%;
+    margin: 0 11% 0 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  border: 3px solid white;
+  border-radius:20px;
+  font-size: 1.2em;
+  width:53%;
+  height:12%;
+  padding: 4px 13px 4px 30px;
+  margin:0 6% 0 0;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 5px solid rgba(81, 203, 238, 1);
+}
+
+
+#cvv{
+margin:2% 41% 0 0;
+}
+
+#cvv input[type="text"]{
+	width:4em;
+}
+
+#bttn{
+height:14%;
+width:10%;
+margin:6% 31%;  
+}
+ button {
+  cursor: pointer;
+  font-size: 1.6em;
+  color: #555;
+  padding: 10% 16%;
+  transition: all 1s linear;
+  border-radius:20px;
+  
+}
+
+ button:focus {
+  box-shadow: 0 10px 2px #A80D47;
+  border-radius:70px;
+  transform: translateY(3%);
+  background-color:#A80D47;
+  
+}
+span{
+font-size:1.3em;
+font-weight:bold;
+line-height:1.6em;
+width:20%;
+
+}
+input,select{
+ float:right;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}

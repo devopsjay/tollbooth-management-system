@@ -1,0 +1,124 @@
+body{
+background:white url('cb.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  box-sizing:border-box;
+  
+}
+.flex{
+display:flex;
+height:100%;
+}
+
+
+#laksmi{
+background:white; /* Old browsers #FE6B57 */
+height:47%;
+width:43%;
+margin:18% 30.6% 0 36%;
+border-radius:26px;
+border:2px solid #DDDDDD;
+display:flex;
+flex-direction:column;
+
+}
+#header{
+background:#0D88CB; /* Old browsers */
+height:5%;
+border-radius:15px;
+}
+#form{
+margin:auto;
+height:90%;
+width:95%;
+text-align:left;
+overflow:hidden;
+}
+
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    background-color:#F4F4F4; /* fallback color if gradients are not supported */
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: 1.16em;
+    width:20%;
+    height:11%;
+    margin: 0  10% 0 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+input[type=text], textarea {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  outline: none;
+  border: 5px solid #F6F7FB;
+  border-radius:30px;
+  font-size: 1.15em;
+  width:62%;
+  height:12%;
+  padding: 4px 13px 4px 30px;
+  margin:0 1.4% 0 0;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 5px solid rgba(81, 203, 238, 1);
+  border-radius:30px;
+}
+
+
+#cvv input[type="text"]{
+	width:4em;
+  margin:0 44% 0 0;
+}
+
+#bttn{
+height:25%;
+width:25%;
+margin:6% 25%; 
+}
+
+ button {
+  background: #C9C9E3;
+  box-shadow: 0 5px 0 #C9C9E6;
+  cursor: pointer;
+  color: #555;
+  font-size: 1.4em;
+  padding: 6px 20px;
+  transition: all 1s ease-in-out;
+  border-radius:10px;
+}
+
+ button:focus {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+  
+}
+span{
+font-size:1.3em;
+font-weight:bold;
+line-height:1.5em;
+width:20%;
+}
+
+input,select{
+ float:right;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}

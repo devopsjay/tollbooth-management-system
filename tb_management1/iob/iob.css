@@ -1,0 +1,118 @@
+body{
+background:white url('iob.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  box-sizing:border-box;
+  
+}
+.flex{
+display:flex;
+height:100%;
+}
+
+
+#laksmi{
+background:#0D88CB; /* Old browsers #FE6B57 */
+height:47%;
+width:43%;
+margin:24% 31% 0 36%;
+border-radius:26px;
+display:flex;
+flex-direction:column;
+
+}
+#header{
+background:#FED700; /* Old browsers */
+height:5%;
+border-radius:15px;
+}
+#form{
+margin:auto;
+height:90%;
+width:95%;
+text-align:left;
+-webkit-box-sizing : border-box;
+float:left;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    background-color:#F4F4F4; 
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: 1.16em;
+    width:20%;
+    height:11%;
+    margin: 0  9% 0 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+input[type=text], textarea {
+  width:57%;
+  height:12%;
+  margin:0 2% 0 0; 
+  padding: 2px 23px 2px 23px;
+  font-size: 1.2em;
+  border-radius:30px;
+  border: 2px solid #DDDDDD;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.50s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 4px solid rgba(81, 203, 238, 1);
+  border-radius:10px;
+}
+
+#cvv input[type="text"]{
+	width:4em;
+  margin:0 42% 0 0;
+}
+
+#bttn{
+height:25%;
+width:25%;
+margin:6% 25%; 
+}
+ button {
+  background: #C9C9E3;
+  box-shadow: 0 5px 0 #C9C9E6;
+  cursor: pointer;
+  color: #555;
+  font-size: 1.4em;
+  padding: 6px 20px;
+  transition: all 0.6s linear;
+  border-radius:50px;
+  
+}
+
+ button:active {
+  box-shadow: 0 10px 5px #006599;
+  transform: translateY(3px);
+  
+}
+span{
+font-size:1.3em;
+font-weight:bold;
+line-height:1.6em;
+width:20%;
+
+}
+input,select{
+ float:right;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
